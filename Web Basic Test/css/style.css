@@ -54,8 +54,27 @@ main .find-more .title{
   font-size: 30px;
 }
 
-body main .why-to-choose{
-  background-image: url(../images/bg-1.jpg)
+.main .why-to-choose{
+  border: 1px solid #a7a3a3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*---------------------------THALESBLOG--------------------------------*/
+.main .thalesblog{
+  border: 1px solid #a7a3a3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main .tokyotech{
+  border: 1px solid #a7a3a3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main .head-quarters{
+  border: 1px solid #a7a3a3;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /*main .latest-job{

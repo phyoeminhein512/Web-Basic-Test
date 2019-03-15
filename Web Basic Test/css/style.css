@@ -54,17 +54,8 @@ body .body-nav-bar{
     left: -10px;
     width: 50px;
 }
-@media only screen and (max-width: 400px) {
-  body{
-      color: red;
-  }
 
-}
-.main .latest-job{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-top: 1px solid #979797;
-}
+
 .main .latest-job .job-desc .latest-job-btn{
   border-radius: 25px;
   color:  lightgrey;
@@ -78,64 +69,6 @@ body .body-nav-bar{
   color:  lightgrey;
   padding: 5px 5px;
 }
-
-.main .find-more {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-top: 1px solid #979797;
-}
-
-.main .find-more .title{
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.main .find-more .motivo-image{
-  padding-left: 100px;
-  width: 200px;
-}
-
-
-.main .why-to-choose{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-top: 1px solid #979797;
-}
-
-.main .thalesblog .title .latest-tech{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.main .thalesblog .title .latest-tech p{
-  margin: 0;
-}
-
-.main .thalesblog{
-  border-top: 1px solid #a7a3a3;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.main .thalesblog img{
-  width: 100%;
-}
-.main .tokyotech{
-  border-top: 1px solid #a7a3a3;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.main .tokyotech img{
-  width: 100%;
-}
-.main .head-quarters{
-  border-top: 1px solid #a7a3a3;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-
 .main .latest-job{
   margin: 30px 0;
 }
@@ -144,6 +77,68 @@ body .body-nav-bar{
   justify-content: space-between;
   align-items: center;
 }
+
+.latest-job-type{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #979797;
+}
+
+.find-more{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #979797;
+}
+.find-more .title{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.find-more .motivo-image{
+  padding-left: 50px;
+}
+
+
+.why-to-choose{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.thalesblog .title .latest-tech{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.thalesblog .title .latest-tech p{
+  margin: 0;
+}
+
+.thalesblog{
+  border-top: 1px solid #a7a3a3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.thalesblog img{
+  width: 100%;
+}
+.tokyotech{
+  border-top: 1px solid #a7a3a3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.tokyotech img{
+  width: 100%;
+}
+.head-quarters{
+  border-top: 1px solid #a7a3a3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
 .body-nav-bar .navbar-indicator{
   background-color: #ddd;
   padding: 127px 0;
@@ -221,10 +216,22 @@ body .body-nav-bar{
 .reponsive-link{
   display: none;
 }
+
+
+footer .foot .map{
+  background-image: url(../images/map.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 780px;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  margin-bottom: 70px
+}
  @media only screen and (max-device-width: 480px) {
   body{
     padding: 0;
-  } 
+  }
   .header .header-section{
     display: none;
   }
@@ -239,6 +246,9 @@ body .body-nav-bar{
     height: 1000px;
     position: relative;
   }
+
+
+
   header .top-header{
     display: none;
   }
